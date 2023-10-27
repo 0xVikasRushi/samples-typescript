@@ -28,3 +28,7 @@ const setValueFromRedis = async (key: string, value: string) => {
 };
 
 export { connectRedis, getValueFromRedis, setValueFromRedis };
+  function useState(second: any): [any, any] {
+    throw new Error("Function not implemented.");
+  }
+

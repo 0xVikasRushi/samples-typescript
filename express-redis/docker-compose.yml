@@ -3,6 +3,7 @@ services:
   redis:
     image: redis
     container_name: redis-server
+    hostname: localhost
     ports:
       - "6379:6379"
     environment:
